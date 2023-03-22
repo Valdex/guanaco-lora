@@ -34,8 +34,8 @@ TARGET_MODULES = [
     "q_proj",
     "v_proj",
 ]
-DATA_PATH = "alpaca_data_cleaned.json"
-OUTPUT_DIR = "lora-alpaca"
+DATA_PATH = "guanaco_data.json"
+OUTPUT_DIR = "lora-guanaco"
 
 device_map = "auto"
 world_size = int(os.environ.get("WORLD_SIZE", 1))
